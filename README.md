@@ -32,3 +32,9 @@ npm start
 
 ## Modalidad de entrega
 * Repositorio público subido a GitHub, Gitlab, Bitbucket.
+
+---
+## Contacto
+* Twitch: deNo_______
+* Discord: deNo'#5960
+* Contacto: https://www.linkedin.com/in/maurolnl/
