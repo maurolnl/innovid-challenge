@@ -1,5 +1,38 @@
-// Container
 .container {
   width: 100%;
   max-width: 1024px;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 11rem;
+}
+
+.img {
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+}
+
+.high_risk_load {
+  color: red;
+}
+
+.medium_risk_load {
+  color: black;
+}
+
+.low_risk_load {
+  color: green;
+}
+
+.server_on {
+  color:green;
+}
+
+.server_off {
+  color:red;
 }
