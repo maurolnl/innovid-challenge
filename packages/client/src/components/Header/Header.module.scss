@@ -1,0 +1,21 @@
+.header_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.global_action_container{
+  display: flex;
+  flex-direction: row;
+  gap:1rem;
+}
+
+.shut_down_servers{
+  color: red;
+}
+
+.restart_servers{
+  color: green;
+}
