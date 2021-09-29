@@ -1,5 +1,11 @@
 ![Innovid](./assets/logo.jpg "Innovid")
 
+---
+## Contacto
+* Twitch: deNo_______
+* Discord: deNo'#5960
+* Contacto: https://www.linkedin.com/in/maurolnl/
+
 # Innovid challenge: Load balancer
 Tenemos que crear una aplicación que muestre la carga de nuestros servidores 1, 2, 3 y 4, lamentablemente nuestro backend no tiene implementado un método para obtenerlos todos al mismo tiempo así que hay que traerlos de a uno, en paralelo.
 
@@ -32,3 +38,5 @@ npm start
 
 ## Modalidad de entrega
 * Repositorio público subido a GitHub, Gitlab, Bitbucket.
+
+
