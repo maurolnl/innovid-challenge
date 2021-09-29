@@ -13,15 +13,24 @@ const Header: React.FC<HeaderProps> = ({shutDownServers, restartServers, addServ
   return (
     <header className={`${styles.header_container} ${app_styles.container}`}>
       <div className={styles.global_action_container}>
-        <button className={styles.shut_down_servers} onClick={() => shutDownServers()}>
+        <button
+          className={`${styles.shut_down_servers} ${styles.header_button}`}
+          onClick={() => shutDownServers()}
+        >
           ⏸Shut Down all Servers
         </button>
-        <button className={styles.restart_servers} onClick={() => restartServers()}>
+        <button
+          className={`${styles.restart_servers} ${styles.header_button}`}
+          onClick={() => restartServers()}
+        >
           ⏯ Restart all Servers
         </button>
       </div>
       <div>
-        <button className={styles.restart_servers} onClick={() => addServer()}>
+        <button
+          className={`${styles.restart_servers} ${styles.header_button}`}
+          onClick={() => addServer()}
+        >
           (～￣▽￣)～ Add Server
         </button>
       </div>

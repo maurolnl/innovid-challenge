@@ -1,0 +1,31 @@
+.footer {
+  background-color: black;
+  padding: .5vh 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.footer_text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.3rem;
+  margin: .7rem;
+}
+
+.footer_link {
+  color: white;
+  border-bottom: 2px solid navy;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.footer_link:hover{
+  background: linear-gradient(90deg,navy,#1084d0);
+  color: white;
+  text-decoration: none;
+}

@@ -2,6 +2,7 @@ import * as React from "react";
 
 import Server from "../components/Server/Server";
 import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 import styles from "./App.module.scss";
 
@@ -78,20 +79,21 @@ const App: React.FC = () => {
     <>
       <Header
         addServer={() => handleAddServer()}
-        shutDownServers={() => handleShutDownAllServers()}
         restartServers={() => handleRestartAllServers()}
+        shutDownServers={() => handleShutDownAllServers()}
       />
       <main className={`${styles.main_container} ${styles.container}`}>
         {servers.map((server) => (
           <Server
             key={server.id}
+            deleteServer={() => handleDeleteServer(server.id)}
             id={server.id}
             isActive={server.isActive}
             setIsActive={() => handleServerShutDown(server.id)}
-            deleteServer={() => handleDeleteServer(server.id)}
           />
         ))}
       </main>
+      <Footer />
     </>
   );
 };
